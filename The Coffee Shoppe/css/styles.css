@@ -1,0 +1,126 @@
+body{
+	font-size:14px /* Who's the Daddy */
+}
+#banner{
+	display:block;
+	position:relative;
+	width:1055px;
+	height:100px;
+	margin:auto;
+	/*background-color:red;*/
+}
+#topnav{
+	display:block;
+	position:relative;
+	width:1055px;
+	height:40px;
+	margin:auto;
+	/*background-color:yellow;*/
+	border-bottom:3px solid #404040; /*charcoal*/
+}
+#topnav ul {
+	margin:0px 0px 0px 200px;
+	padding:0px;
+	list-style-type:none;
+}
+#topnav li {
+	float:left;
+	margin:10px;
+}
+#topnav a {
+	color:#784411;
+	text-decoration: none;
+}
+#topnav a:hover{
+	text-decoration:underline;
+}
+#wrap{
+	display:block;
+	position:relative;
+	width:1055px;
+	height:590px;
+	margin:auto;
+}
+#sidenav{
+	display:block;
+	position:relative;
+	width:199px; /*200px*/
+	height:590px;
+	float:left;
+	/*background-color:green;*/
+	border-right:1px solid #404040; /*charcoal*/
+}
+	#sidenav ul{
+		margin: 0px;
+		padding: 0px;
+		list-style-type: none;
+	}
+	#sidenav li{
+		/*nothing to do (vertical)*/
+	}
+	#sidenav a{
+		color:#784411;
+		text-decoration:none;
+		font-size:1.1em;
+		line-height:1.5em;
+	}
+	#sidenav a:hover{
+		text-decoration:underline;
+	}
+#main{
+	display:block;
+	position:relative;
+	width:590px;
+	height:590px;
+	float:left;
+	/*background-color:blue;*/
+	
+}
+#main img{
+	width:586px;
+	height:586px;
+	border:2px solid #404040;
+}
+#info{
+	display:block;
+	position:relative;
+	width:205px;
+	height:530px;
+	float:left;
+	background-color:#784411; /*coffee*/
+	margin:30px;
+	border-radius:20px;
+	box-shadow:10px 10px 5px #888888;
+	font-family: arial, sans-serif;
+	color:#ffffff;
+	text-align: center;
+	font-size: 2.5em;
+	line-height: 1.66em;
+	
+}
+#bottomnav{
+	display:block;
+	position:relative;
+	width:1055px;
+	height:40px;
+	margin:auto;
+	/*background-color:purple;*/
+	border-top: 3px solid #404040; /*charcoal*/
+}
+	#bottomnav ul {
+	margin:0px 0px 0px 200px;
+	padding:0px;
+	list-style-type:none;
+	}
+	#bottomnav li {
+	float:left;
+	margin:10px;
+	}
+	#bottomnav a {
+	color:#784411;
+	text-decoration: none;
+	font-size:0.9em;
+	}
+	#bottomnav a:hover{
+	text-decoration:underline;
+	}
