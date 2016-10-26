@@ -1,0 +1,172 @@
+html,body{
+	height:100%;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family:arial, sans-serif;
+	font-size:14pt; /* 1em at da body */
+	color:#404040;
+	background-image:url(../assets/background.jpg);
+	background-size:100% 100%;
+	overflow:hidden;
+}
+/* Not all of the elements are used in the pages, as I didn't find a use for them. */
+#wrapper{
+	display:block;
+	width:1055px;
+	height:590px;
+	margin:0px auto;
+}
+
+#top-nav{
+	display:block; 
+	position:relative;
+	width:1055px;
+	height:40px;
+	margin:0px auto;
+	padding: 5px;
+	/* background-color:#221116; */
+		border-bottom:3px inset #742e20;
+	font-family: Dafont;
+}
+	#top-nav ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	text-align:center;
+}
+	#top-nav li{
+		display:inline-block;
+		width:15%;
+
+}
+	#top-nav a{
+		text-decoration:none; /* Default is underlined */
+		color: #954535;
+}
+	#top-nav a:hover{
+	text-decoration:underline;
+	color: #742e20;
+}
+
+#profile{
+	display:block;
+	position:absolute;
+	width:600px;
+	height:400px;
+	left:50px;
+	top:100px;
+	padding:30px;
+	border-radius:30px;
+	background-color:rgba(255,255,255,0.7);
+
+
+}
+#photo{
+	display:block;
+	float: right;
+	width:1000px;
+	height:600px;
+	left:50px;
+	top:100px;
+	padding:30px;
+	border-radius:30px;
+
+	}
+
+#social_links{
+	display:block;
+	position:absolute;
+	width:700px;
+	height:100px;
+	right:30px;
+	bottom:30px;
+	background:#ffffff;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+#social_links li, #social_links a{
+	display:block;
+	width:100px;
+	height:100px;
+	float:left;
+
+}
+#social_links a {
+	transition: all 0.3s;
+	}
+#facebook a{
+	background-image:url(../assets/sprite.gif);
+	background-position: 0 -100px;
+	/* 0 without px, all others with px */
+	}
+
+#twitter a{
+	background-image:url(../assets/sprite.gif);
+	background-position: -100px -100px;
+}
+#youtube a{
+	background-image:url(../assets/sprite.gif);
+	background-position: -200px -100px;
+}
+#instagram a{
+	background-image:url(../assets/sprite.gif);
+	background-position: -300px -100px;
+}
+#linkedin a{
+	background-image:url(../assets/sprite.gif);
+	background-position: -400px -100px;
+}
+#tumblr a{
+	background-image:url(../assets/sprite.gif);
+	background-position: -500px -100px;
+
+}
+#google a{
+	background-image:url(../assets/sprite.gif);
+	background-position: -600px -100px;
+}
+
+#facebook a:hover{
+	background-position: 0 0;
+}
+#twitter a:hover{
+	background-position: -100px 0;
+}
+#youtube a:hover{
+	background-position: -200px 0;
+}
+#instagram a:hover{
+	background-position: -300px 0;
+}
+#linkedin a:hover{
+	background-position: -400px 0;
+}
+#tumblr a:hover{
+	background-position: -500px 0;
+}
+#google a:hover{
+	background-position: -600px 0;
+}
+/* This is all just for the social media icons, and isn't all that relevant to the task. */
+
+/* Next up is the media query for mobile support */
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+/* This makes the media query apply for not only mobile devices, but also for PC users that are viewing the website in a smaller window. */
+#photo{
+	display:block;
+	position:absolute;
+	width:600px;
+	height:400px;
+	left:50px;
+	top:100px;
+	padding:30px;
+	border-radius:30px;
+	background-color:rgba(255,255,255,0.7);
+	visibility:none;
+	}
+	/* With visibility set to none, when the screen gets smaller the photo element will no longer appear */
+	}
