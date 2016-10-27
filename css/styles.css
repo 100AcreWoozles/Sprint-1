@@ -8,11 +8,11 @@ body{
 	font-family:arial, sans-serif;
 	font-size:14pt; /* 1em at da body */
 	color:#404040;
-	background-image:url(../assets/background.jpg);
+	background-image:url(../assets/rubixBackground.jpg);
 	background-size:100% 100%;
 	overflow:hidden;
 }
-/* Not all of the elements are used in the pages, as I didn't find a use for them. */
+
 #wrapper{
 	display:block;
 	width:1055px;
@@ -75,6 +75,21 @@ body{
 	border-radius:30px;
 
 	}
+#ad{
+	display:block;
+	float: right;
+	position:absolute;
+	width:200px;
+	height:800px;
+	right:30px;
+	bottom:30px;
+	background:#ffffff;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	
+	
+}
 
 #social_links{
 	display:block;
